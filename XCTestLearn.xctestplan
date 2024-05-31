@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "4D05F46D-2BA4-43DE-AEA7-B828D85AA5A6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:XCTestLearn.xcodeproj",
+      "identifier" : "82B1BFF32C059E7200CFF09B",
+      "name" : "XCTestLearn"
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:XCTestLearn.xcodeproj",
+        "identifier" : "82B1C0092C059E7400CFF09B",
+        "name" : "XCTestLearnTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:XCTestLearn.xcodeproj",
+        "identifier" : "82B1C0132C059E7400CFF09B",
+        "name" : "XCTestLearnUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

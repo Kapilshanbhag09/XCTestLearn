@@ -9,6 +9,11 @@ import XCTest
 
 final class XCTestLearnUITests: XCTestCase {
 
+    // Setting this to true make our UI test run for each and every possible combination of orientation, appearanc
+    override class var runsForEachTargetApplicationUIConfiguration: Bool {
+        return true
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
