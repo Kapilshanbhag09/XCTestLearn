@@ -7,27 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		824764362C09D02E00079195 /* ManageExecutionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824764352C09D02E00079195 /* ManageExecutionsTests.swift */; };
-		826DAC762C16B68F00DA50CA /* MesasurePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DAC752C16B68F00DA50CA /* MesasurePerformanceTests.swift */; };
 		82B1BFF82C059E7200CFF09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFF72C059E7200CFF09B /* AppDelegate.swift */; };
 		82B1BFFA2C059E7200CFF09B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFF92C059E7200CFF09B /* SceneDelegate.swift */; };
 		82B1BFFC2C059E7200CFF09B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFFB2C059E7200CFF09B /* ViewController.swift */; };
 		82B1BFFF2C059E7200CFF09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B1BFFD2C059E7200CFF09B /* Main.storyboard */; };
 		82B1C0012C059E7400CFF09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B1C0002C059E7400CFF09B /* Assets.xcassets */; };
 		82B1C0042C059E7400CFF09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B1C0022C059E7400CFF09B /* LaunchScreen.storyboard */; };
-		82B1C00F2C059E7400CFF09B /* XCTestLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C00E2C059E7400CFF09B /* XCTestLearnTests.swift */; };
 		82B1C0192C059E7400CFF09B /* XCTestLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */; };
 		82B1C01B2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		82B1C00B2C059E7400CFF09B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82B1BFEC2C059E7200CFF09B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B1BFF32C059E7200CFF09B;
-			remoteInfo = XCTestLearn;
-		};
 		82B1C0152C059E7400CFF09B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 82B1BFEC2C059E7200CFF09B /* Project object */;
@@ -49,22 +39,15 @@
 		82B1C0002C059E7400CFF09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82B1C0032C059E7400CFF09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82B1C0052C059E7400CFF09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82B1C00A2C059E7400CFF09B /* XCTestLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B1C00E2C059E7400CFF09B /* XCTestLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearnTests.swift; sourceTree = "<group>"; };
 		82B1C0142C059E7400CFF09B /* XCTestLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearnUITests.swift; sourceTree = "<group>"; };
 		82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F2A08DD2C4F4FFD00D68F3E /* AsyncTestExpectations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTestExpectations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		82B1BFF12C059E7200CFF09B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82B1C0072C059E7400CFF09B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				82B1BFF42C059E7200CFF09B /* XCTestLearn.app */,
-				82B1C00A2C059E7400CFF09B /* XCTestLearnTests.xctest */,
 				82B1C0142C059E7400CFF09B /* XCTestLearnUITests.xctest */,
 			);
 			name = Products;
@@ -119,9 +101,7 @@
 		82B1C00D2C059E7400CFF09B /* XCTestLearnTests */ = {
 			isa = PBXGroup;
 			children = (
-				82B1C00E2C059E7400CFF09B /* XCTestLearnTests.swift */,
-				824764352C09D02E00079195 /* ManageExecutionsTests.swift */,
-				826DAC752C16B68F00DA50CA /* MesasurePerformanceTests.swift */,
+				9F2A08DF2C4F501000D68F3E /* XCTestCase */,
 			);
 			path = XCTestLearnTests;
 			sourceTree = "<group>";
@@ -133,6 +113,17 @@
 				82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */,
 			);
 			path = XCTestLearnUITests;
+			sourceTree = "<group>";
+		};
+		9F2A08DF2C4F501000D68F3E /* XCTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				82B1C00E2C059E7400CFF09B /* XCTestLearnTests.swift */,
+				824764352C09D02E00079195 /* ManageExecutionsTests.swift */,
+				826DAC752C16B68F00DA50CA /* MesasurePerformanceTests.swift */,
+				9F2A08DD2C4F4FFD00D68F3E /* AsyncTestExpectations.swift */,
+			);
+			path = XCTestCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,24 +145,6 @@
 			productName = XCTestLearn;
 			productReference = 82B1BFF42C059E7200CFF09B /* XCTestLearn.app */;
 			productType = "com.apple.product-type.application";
-		};
-		82B1C0092C059E7400CFF09B /* XCTestLearnTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82B1C0212C059E7400CFF09B /* Build configuration list for PBXNativeTarget "XCTestLearnTests" */;
-			buildPhases = (
-				82B1C0062C059E7400CFF09B /* Sources */,
-				82B1C0072C059E7400CFF09B /* Frameworks */,
-				82B1C0082C059E7400CFF09B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82B1C00C2C059E7400CFF09B /* PBXTargetDependency */,
-			);
-			name = XCTestLearnTests;
-			productName = XCTestLearnTests;
-			productReference = 82B1C00A2C059E7400CFF09B /* XCTestLearnTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		82B1C0132C059E7400CFF09B /* XCTestLearnUITests */ = {
 			isa = PBXNativeTarget;
@@ -204,10 +177,6 @@
 					82B1BFF32C059E7200CFF09B = {
 						CreatedOnToolsVersion = 15.1;
 					};
-					82B1C0092C059E7400CFF09B = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 82B1BFF32C059E7200CFF09B;
-					};
 					82B1C0132C059E7400CFF09B = {
 						CreatedOnToolsVersion = 15.1;
 						TestTargetID = 82B1BFF32C059E7200CFF09B;
@@ -228,7 +197,6 @@
 			projectRoot = "";
 			targets = (
 				82B1BFF32C059E7200CFF09B /* XCTestLearn */,
-				82B1C0092C059E7400CFF09B /* XCTestLearnTests */,
 				82B1C0132C059E7400CFF09B /* XCTestLearnUITests */,
 			);
 		};
@@ -242,13 +210,6 @@
 				82B1C0042C059E7400CFF09B /* LaunchScreen.storyboard in Resources */,
 				82B1C0012C059E7400CFF09B /* Assets.xcassets in Resources */,
 				82B1BFFF2C059E7200CFF09B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82B1C0082C059E7400CFF09B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,16 +233,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82B1C0062C059E7400CFF09B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				826DAC762C16B68F00DA50CA /* MesasurePerformanceTests.swift in Sources */,
-				82B1C00F2C059E7400CFF09B /* XCTestLearnTests.swift in Sources */,
-				824764362C09D02E00079195 /* ManageExecutionsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		82B1C0102C059E7400CFF09B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,11 +245,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		82B1C00C2C059E7400CFF09B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82B1BFF32C059E7200CFF09B /* XCTestLearn */;
-			targetProxy = 82B1C00B2C059E7400CFF09B /* PBXContainerItemProxy */;
-		};
 		82B1C0162C059E7400CFF09B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 82B1BFF32C059E7200CFF09B /* XCTestLearn */;
@@ -501,46 +447,6 @@
 			};
 			name = Release;
 		};
-		82B1C0222C059E7400CFF09B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QRX759NZVR;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kapil.shanbhag.XCTestLearnTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCTestLearn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCTestLearn";
-			};
-			name = Debug;
-		};
-		82B1C0232C059E7400CFF09B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QRX759NZVR;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kapil.shanbhag.XCTestLearnTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCTestLearn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCTestLearn";
-			};
-			name = Release;
-		};
 		82B1C0252C059E7400CFF09B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,15 +500,6 @@
 			buildConfigurations = (
 				82B1C01F2C059E7400CFF09B /* Debug */,
 				82B1C0202C059E7400CFF09B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82B1C0212C059E7400CFF09B /* Build configuration list for PBXNativeTarget "XCTestLearnTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82B1C0222C059E7400CFF09B /* Debug */,
-				82B1C0232C059E7400CFF09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

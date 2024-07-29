@@ -42,5 +42,17 @@ final class XCTestLearnUITests: XCTestCase {
                 XCUIApplication().launch()
             }
         }
+
+        let keyPath: KeyPath = \MyClass.a
+        let t = MyClass()
+        let expectation7 = expectation(that: keyPath, on: t, willEqual: 10)
+    }
+
+    class MyClass {
+        var a: Int = 10
+        
+        init() {
+            
+        }
     }
 }
