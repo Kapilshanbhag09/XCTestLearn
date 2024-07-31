@@ -16,6 +16,7 @@
 		82B1C0192C059E7400CFF09B /* XCTestLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */; };
 		82B1C01B2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */; };
 		9F8653882C573ED9002C8945 /* WaitingExpectationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8653872C573ED9002C8945 /* WaitingExpectationsTests.swift */; };
+		9F87BC2D2C59DB5400A24DA2 /* HandlingUIInteruptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87BC2C2C59DB5400A24DA2 /* HandlingUIInteruptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearnUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9F2A08DD2C4F4FFD00D68F3E /* AsyncTestExpectations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTestExpectations.swift; sourceTree = "<group>"; };
 		9F8653872C573ED9002C8945 /* WaitingExpectationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingExpectationsTests.swift; sourceTree = "<group>"; };
+		9F87BC2C2C59DB5400A24DA2 /* HandlingUIInteruptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingUIInteruptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		82B1C0172C059E7400CFF09B /* XCTestLearnUITests */ = {
 			isa = PBXGroup;
 			children = (
+				9F87BC2B2C59DB3800A24DA2 /* XCTestCase */,
 				82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */,
 				82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */,
 			);
@@ -125,6 +128,14 @@
 				826DAC752C16B68F00DA50CA /* MesasurePerformanceTests.swift */,
 				9F2A08DD2C4F4FFD00D68F3E /* AsyncTestExpectations.swift */,
 				9F8653872C573ED9002C8945 /* WaitingExpectationsTests.swift */,
+			);
+			path = XCTestCase;
+			sourceTree = "<group>";
+		};
+		9F87BC2B2C59DB3800A24DA2 /* XCTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9F87BC2C2C59DB5400A24DA2 /* HandlingUIInteruptions.swift */,
 			);
 			path = XCTestCase;
 			sourceTree = "<group>";
@@ -242,6 +253,7 @@
 			files = (
 				9F8653882C573ED9002C8945 /* WaitingExpectationsTests.swift in Sources */,
 				82B1C01B2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift in Sources */,
+				9F87BC2D2C59DB5400A24DA2 /* HandlingUIInteruptions.swift in Sources */,
 				82B1C0192C059E7400CFF09B /* XCTestLearnUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
