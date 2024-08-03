@@ -56,6 +56,20 @@ final class LearnEqualityAndNonEqualityAssertionTests: XCTestCase {
         b = a
         XCTAssertNotIdentical(a, b)
     }
+    
+    func testFloatingPointAssertion() throws {
+        // https://developer.apple.com/documentation/xctest/2919914-xctassertequal
+        XCTAssertEqual(8.0, 9.1, accuracy: 1) // Fail as 9.1 - 8.0 > 1.
+        
+        // https://developer.apple.com/documentation/xctest/3551607-xctassertequal
+        XCTAssertEqual(9, 11, accuracy: 1) // Fail as 11 - 9 > 1
+        
+        // https://developer.apple.com/documentation/xctest/2919913-xctassertnotequal
+        XCTAssertNotEqual(8.0, 8.2, accuracy: 1) // Fail as 8.2 - 8.1 < 1
+        
+        // https://developer.apple.com/documentation/xctest/3551608-xctassertnotequal
+        XCTAssertNotEqual(8, 9, accuracy: 2) // Fail as 9 - 8 < 1
+    }
 
     class MyClass {
 
