@@ -23,6 +23,7 @@
 		9F23851F2C72F212006D8B06 /* LearnXCTestExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23851E2C72F212006D8B06 /* LearnXCTestExpectation.swift */; };
 		9F8653882C573ED9002C8945 /* WaitingExpectationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8653872C573ED9002C8945 /* WaitingExpectationsTests.swift */; };
 		9F87BC2D2C59DB5400A24DA2 /* HandlingUIInteruptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87BC2C2C59DB5400A24DA2 /* HandlingUIInteruptions.swift */; };
+		9F9BBBFB2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BBBFA2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift */; };
 		9FC29C952C5B2B6E004E4F2E /* CreatingTestsProgramatically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC29C942C5B2B6E004E4F2E /* CreatingTestsProgramatically.swift */; };
 		9FC29C982C5B3160004E4F2E /* XCTestLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC29C972C5B3160004E4F2E /* XCTestLearn.swift */; };
 		9FED64CE2C86B24000B12A89 /* LearnXCTKVOExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED64CD2C86B24000B12A89 /* LearnXCTKVOExpectation.swift */; };
@@ -67,6 +68,7 @@
 		9F2A08DD2C4F4FFD00D68F3E /* AsyncTestExpectations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTestExpectations.swift; sourceTree = "<group>"; };
 		9F8653872C573ED9002C8945 /* WaitingExpectationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingExpectationsTests.swift; sourceTree = "<group>"; };
 		9F87BC2C2C59DB5400A24DA2 /* HandlingUIInteruptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingUIInteruptions.swift; sourceTree = "<group>"; };
+		9F9BBBFA2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTKeyPathExpectation.swift; sourceTree = "<group>"; };
 		9FC29C942C5B2B6E004E4F2E /* CreatingTestsProgramatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingTestsProgramatically.swift; sourceTree = "<group>"; };
 		9FC29C972C5B3160004E4F2E /* XCTestLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearn.swift; sourceTree = "<group>"; };
 		9FED64CD2C86B24000B12A89 /* LearnXCTKVOExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTKVOExpectation.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			children = (
 				9F23851E2C72F212006D8B06 /* LearnXCTestExpectation.swift */,
 				9FED64CD2C86B24000B12A89 /* LearnXCTKVOExpectation.swift */,
+				9F9BBBFA2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift */,
 			);
 			path = AsyncTestsExpectations;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				9FC29C982C5B3160004E4F2E /* XCTestLearn.swift in Sources */,
 				36C6DE722C5DEFEF00372FCF /* LearnComparableAssertionTests.swift in Sources */,
 				9FEF27452C5C819B00355B67 /* LearnAssertionTests.swift in Sources */,
+				9F9BBBFB2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift in Sources */,
 				9FEF274B2C5C8B4000355B67 /* LearnEqualityAndNonEqualityAssertionTests.swift in Sources */,
 				9F87BC2D2C59DB5400A24DA2 /* HandlingUIInteruptions.swift in Sources */,
 				9FED64CE2C86B24000B12A89 /* LearnXCTKVOExpectation.swift in Sources */,
