@@ -12,6 +12,7 @@
 		36C6DE762C5DFC2300372FCF /* LearnUnconditionalFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6DE752C5DFC2300372FCF /* LearnUnconditionalFailureTests.swift */; };
 		36C6DE782C5E03F800372FCF /* LearnExpectedFailuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6DE772C5E03F800372FCF /* LearnExpectedFailuresTests.swift */; };
 		36D1A7142C5F67E4003F3CA5 /* LearnSkippingMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1A7132C5F67E4003F3CA5 /* LearnSkippingMethodTests.swift */; };
+		36E807032C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E807022C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift */; };
 		82B1BFF82C059E7200CFF09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFF72C059E7200CFF09B /* AppDelegate.swift */; };
 		82B1BFFA2C059E7200CFF09B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFF92C059E7200CFF09B /* SceneDelegate.swift */; };
 		82B1BFFC2C059E7200CFF09B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFFB2C059E7200CFF09B /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		36C6DE752C5DFC2300372FCF /* LearnUnconditionalFailureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUnconditionalFailureTests.swift; sourceTree = "<group>"; };
 		36C6DE772C5E03F800372FCF /* LearnExpectedFailuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnExpectedFailuresTests.swift; sourceTree = "<group>"; };
 		36D1A7132C5F67E4003F3CA5 /* LearnSkippingMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSkippingMethodTests.swift; sourceTree = "<group>"; };
+		36E807022C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTNotificationExpectation.swift; sourceTree = "<group>"; };
 		824764352C09D02E00079195 /* ManageExecutionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageExecutionsTests.swift; sourceTree = "<group>"; };
 		824764372C09DC9D00079195 /* XCTestLearn.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = XCTestLearn.xctestplan; sourceTree = "<group>"; };
 		826DAC752C16B68F00DA50CA /* MesasurePerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesasurePerformanceTests.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				9F23851E2C72F212006D8B06 /* LearnXCTestExpectation.swift */,
 				9FED64CD2C86B24000B12A89 /* LearnXCTKVOExpectation.swift */,
 				9F9BBBFA2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift */,
+				36E807022C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift */,
 			);
 			path = AsyncTestsExpectations;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				9F23851F2C72F212006D8B06 /* LearnXCTestExpectation.swift in Sources */,
 				9FC29C982C5B3160004E4F2E /* XCTestLearn.swift in Sources */,
 				36C6DE722C5DEFEF00372FCF /* LearnComparableAssertionTests.swift in Sources */,
+				36E807032C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift in Sources */,
 				9FEF27452C5C819B00355B67 /* LearnAssertionTests.swift in Sources */,
 				9F9BBBFB2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift in Sources */,
 				9FEF274B2C5C8B4000355B67 /* LearnEqualityAndNonEqualityAssertionTests.swift in Sources */,
