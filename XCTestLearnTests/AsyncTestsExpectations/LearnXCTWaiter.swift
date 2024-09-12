@@ -156,4 +156,52 @@ final class LearnXCTWaiter: XCTestCase {
             print("Some Other error")
         }
     }
+
+    // https://developer.apple.com/documentation/xctest/xctwaiter/2806737-delegate
+    func testXCTWaiterDelegate() {
+        let expectation = XCTestExpectation(description: "My Expectation")
+        let delegate = MyMockDelegate()
+        let waiter = XCTWaiter()
+        waiter.delegate = delegate
+
+        waiter.wait(for: [expectation], timeout: 1.0)
+    }
+
+    // https://developer.apple.com/documentation/xctest/xctwaiter/2806739-fulfilledexpectations
+    func testFulfilledExpecation() {
+        let expectation = XCTestExpectation(description: "My Expectation")
+        let waiter = XCTWaiter()
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            expectation.fulfill()
+        }
+
+        waiter.wait(for: [expectation], timeout: 1.5)
+
+        // Contains expectation in order of fulfillment.
+        // Expectation fulfilled first will in first.
+        print(waiter.fulfilledExpectations)
+    }
+
+    class MyMockDelegate: NSObject, XCTWaiterDelegate {
+        // https://developer.apple.com/documentation/xctest/xctwaiterdelegate/2806734-waiter
+        func waiter(_ waiter: XCTWaiter, didTimeoutWithUnfulfilledExpectations unfulfilledExpectations: [XCTestExpectation]) {
+            print("Expectation is not fulfilled")
+        }
+
+        // https://developer.apple.com/documentation/xctest/xctwaiterdelegate/2852132-nestedwaiter
+        func nestedWaiter(_ waiter: XCTWaiter, wasInterruptedByTimedOutWaiter outerWaiter: XCTWaiter) {
+            print("Expectation interupted by nested Waiter")
+        }
+
+        // https://developer.apple.com/documentation/xctest/xctwaiterdelegate/2806735-waiter
+        func waiter(_ waiter: XCTWaiter, fulfillmentDidViolateOrderingConstraintsFor expectation: XCTestExpectation, requiredExpectation: XCTestExpectation) {
+            print("Expecatation fulfilled in wrong order")
+        }
+
+        // https://developer.apple.com/documentation/xctest/xctwaiterdelegate/2806745-waiter
+        func waiter(_ waiter: XCTWaiter, didFulfillInvertedExpectation expectation: XCTestExpectation) {
+            print("Inverted expectation was fulfilled")
+        }
+    }
 }
