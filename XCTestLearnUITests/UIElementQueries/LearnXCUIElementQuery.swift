@@ -26,12 +26,93 @@ final class LearnXCUIElementQuery: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
+        
         let button = app.buttons["MyAdd_Button"]
         let query = button.children(matching: .button)
-        XCTAssertTrue(button.exists)
-
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1501006-children
+        print(query.children(matching: .button))
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500659-descendants
+        print(query.descendants(matching: .button))
+//        XCTAssertTrue(button.exists)
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500956-containing
+//        print(query.containing(NSPredicate()))
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500995-containing
+        print(query.containing(.button, identifier: "MyAdd_Button"))
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500679-matching
+        print(query.matching(identifier: "MyAdd_Button"))
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500471-matching
+//        print(query.matching(NSPredicate()))
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500881-matching
+        print(query.matching(.button, identifier: "MyAdd_Button"))
+        
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testAccessingMatchedElements() {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let button = app.buttons["MyAdd_Button"]
+        let query = button.children(matching: .button)
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500816-allelementsboundbyaccessibilitye
+        print(query.allElementsBoundByAccessibilityElement)
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500945-allelementsboundbyindex
+        print(query.allElementsBoundByIndex)
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500625-count
+        print(query.count)
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500515-element
+        print(query.element)
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500842-element
+        print(query.element(boundBy: 0))
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500768-element
+//        print(query.element(matching: NSPredicate()))
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500715-element
+        print(query.element(matching: .button, identifier: "MyAdd_Button"))
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500776-subscript
+        print(query["MyAdd_Button"])
+    }
+    
+    func testDebugDescription() {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let button = app.buttons["MyAdd_Button"]
+        let query = button.children(matching: .button)
+        
+        // https://developer.apple.com/documentation/xctest/xcuielementquery/1500412-debugdescription
+        print(query.debugDescription)
+    }
+    
+    func testWindowButtonIdentifier() {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let button = app.buttons["MyAdd_Button"]
+        let query = button.children(matching: .button)
+        
+        // https://developer.apple.com/documentation/xctest/xcuiidentifierclosewindow
+        print(XCUIIdentifierCloseWindow)
+        // https://developer.apple.com/documentation/xctest/xcuiidentifierfullscreenwindow
+        print(XCUIIdentifierFullScreenWindow)
+        // https://developer.apple.com/documentation/xctest/xcuiidentifierminimizewindow
+        print(XCUIIdentifierMinimizeWindow)
+        // https://developer.apple.com/documentation/xctest/xcuiidentifierzoomwindow
+        print(XCUIIdentifierZoomWindow)
     }
 
     func testLaunchPerformance() throws {
