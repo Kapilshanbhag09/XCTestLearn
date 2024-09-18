@@ -23,6 +23,7 @@
 		82B1C0192C059E7400CFF09B /* XCTestLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */; };
 		82B1C01B2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */; };
 		9F23851F2C72F212006D8B06 /* LearnXCTestExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23851E2C72F212006D8B06 /* LearnXCTestExpectation.swift */; };
+		9F293F7A2C992F02005B3DF4 /* LearnXCUIElementQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F293F792C992F02005B3DF4 /* LearnXCUIElementQuery.swift */; };
 		9F8653882C573ED9002C8945 /* WaitingExpectationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8653872C573ED9002C8945 /* WaitingExpectationsTests.swift */; };
 		9F87BC2D2C59DB5400A24DA2 /* HandlingUIInteruptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F87BC2C2C59DB5400A24DA2 /* HandlingUIInteruptions.swift */; };
 		9F9BBBFB2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BBBFA2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift */; };
@@ -71,6 +72,7 @@
 		82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearnUITests.swift; sourceTree = "<group>"; };
 		82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearnUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9F23851E2C72F212006D8B06 /* LearnXCTestExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTestExpectation.swift; sourceTree = "<group>"; };
+		9F293F792C992F02005B3DF4 /* LearnXCUIElementQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementQuery.swift; sourceTree = "<group>"; };
 		9F2A08DD2C4F4FFD00D68F3E /* AsyncTestExpectations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTestExpectations.swift; sourceTree = "<group>"; };
 		9F8653872C573ED9002C8945 /* WaitingExpectationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingExpectationsTests.swift; sourceTree = "<group>"; };
 		9F87BC2C2C59DB5400A24DA2 /* HandlingUIInteruptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingUIInteruptions.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		82B1C0172C059E7400CFF09B /* XCTestLearnUITests */ = {
 			isa = PBXGroup;
 			children = (
+				9F293F782C992EE4005B3DF4 /* UIElementQueries */,
 				9F87BC2B2C59DB3800A24DA2 /* XCTestCase */,
 				82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */,
 				82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */,
@@ -171,6 +174,14 @@
 				36C087EC2C914EFE00271114 /* LearnXCTWaiter.swift */,
 			);
 			path = AsyncTestsExpectations;
+			sourceTree = "<group>";
+		};
+		9F293F782C992EE4005B3DF4 /* UIElementQueries */ = {
+			isa = PBXGroup;
+			children = (
+				9F293F792C992F02005B3DF4 /* LearnXCUIElementQuery.swift */,
+			);
+			path = UIElementQueries;
 			sourceTree = "<group>";
 		};
 		9F2A08DF2C4F501000D68F3E /* XCTestCase */ = {
@@ -338,6 +349,7 @@
 				36C6DE742C5DF9BD00372FCF /* LearnErrorAssertionTests.swift in Sources */,
 				82B1C01B2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift in Sources */,
 				9F23851F2C72F212006D8B06 /* LearnXCTestExpectation.swift in Sources */,
+				9F293F7A2C992F02005B3DF4 /* LearnXCUIElementQuery.swift in Sources */,
 				9FC29C982C5B3160004E4F2E /* XCTestLearn.swift in Sources */,
 				36C087ED2C914EFE00271114 /* LearnXCTWaiter.swift in Sources */,
 				36C6DE722C5DEFEF00372FCF /* LearnComparableAssertionTests.swift in Sources */,
