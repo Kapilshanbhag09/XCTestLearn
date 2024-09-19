@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var testLabel: UILabel!
     @IBOutlet weak var testButton: UIButton!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class ViewController: UIViewController {
         testLabel.text = "\(count)"
         testButton.setTitle("Add", for: .normal)
         testButton.accessibilityLabel = "MyAdd_Button"
+        activityIndicator.startAnimating()
     }
     func isEven(number: Int) -> Bool {
         return number % 2 == 0
@@ -27,6 +29,8 @@ class ViewController: UIViewController {
     @IBAction func testButtonTapped(_ sender: Any) {
         count += 1
         testLabel.text = "\(count)"
+
+        self.navigationController?.pushViewController(UIViewController(), animated: false)
     }
 }
 

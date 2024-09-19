@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qrt-f5-gn5">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="L6I-3K-lYf">
+            <objects>
+                <navigationController id="Qrt-f5-gn5" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1oF-y3-MoD">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3JS-Uk-Wml"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ll0-TF-IkI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1198" y="-478"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -30,24 +46,31 @@
                                     <action selector="testButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OOR-Rc-FM3"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="SbT-jP-BTc">
+                                <rect key="frame" x="186.66666666666666" y="798" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="nsA-ln-ASb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WJU-N1-5jV"/>
+                            <constraint firstItem="SbT-jP-BTc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aFO-Ce-IEO"/>
                             <constraint firstItem="XVC-yJ-lNz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-16" id="b2m-uX-QmY"/>
                             <constraint firstItem="XVC-yJ-lNz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lGa-EJ-WPi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SbT-jP-BTc" secondAttribute="bottom" id="ovH-i6-qY4"/>
                             <constraint firstItem="nsA-ln-ASb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="16" id="wba-5D-2eu"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="584-Ej-k5D"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="SbT-jP-BTc" id="Hup-Qv-SWf"/>
                         <outlet property="testButton" destination="nsA-ln-ASb" id="gc5-Ns-dpm"/>
                         <outlet property="testLabel" destination="XVC-yJ-lNz" id="cFk-VH-dFO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="5"/>
+            <point key="canvasLocation" x="-327" y="-478"/>
         </scene>
     </scenes>
     <resources>
