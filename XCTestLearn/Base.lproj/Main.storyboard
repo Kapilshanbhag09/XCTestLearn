@@ -49,11 +49,19 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="SbT-jP-BTc">
                                 <rect key="frame" x="186.66666666666666" y="798" width="20" height="20"/>
                             </activityIndicatorView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GnI-8Z-bvr">
+                                <rect key="frame" x="16" y="103" width="361" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="GnI-8Z-bvr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Dol-8c-r3Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GnI-8Z-bvr" secondAttribute="trailing" constant="16" id="Pxo-bB-pXT"/>
                             <constraint firstItem="nsA-ln-ASb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WJU-N1-5jV"/>
+                            <constraint firstItem="GnI-8Z-bvr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="YuP-YP-j6p"/>
                             <constraint firstItem="SbT-jP-BTc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aFO-Ce-IEO"/>
                             <constraint firstItem="XVC-yJ-lNz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-16" id="b2m-uX-QmY"/>
                             <constraint firstItem="XVC-yJ-lNz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lGa-EJ-WPi"/>
@@ -64,6 +72,7 @@
                     <navigationItem key="navigationItem" id="584-Ej-k5D"/>
                     <connections>
                         <outlet property="activityIndicator" destination="SbT-jP-BTc" id="Hup-Qv-SWf"/>
+                        <outlet property="myTextField" destination="GnI-8Z-bvr" id="h15-do-TGt"/>
                         <outlet property="testButton" destination="nsA-ln-ASb" id="gc5-Ns-dpm"/>
                         <outlet property="testLabel" destination="XVC-yJ-lNz" id="cFk-VH-dFO"/>
                     </connections>

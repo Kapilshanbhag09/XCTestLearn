@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     private var count: Int = 0
 
+    @IBOutlet weak var myTextField: UITextField!
     @IBOutlet weak var testLabel: UILabel!
     @IBOutlet weak var testButton: UIButton!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -19,6 +20,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         testLabel.text = "\(count)"
         testButton.setTitle("Add", for: .normal)
+        myTextField.accessibilityLabel = "MyText_Field"
         testButton.accessibilityLabel = "MyAdd_Button"
         activityIndicator.startAnimating()
     }
