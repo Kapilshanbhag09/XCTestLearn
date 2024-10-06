@@ -44,6 +44,12 @@ final class XCTestLearnUITests: XCTestCase {
         }
     }
 
+    func testUITestingAvailability() throws {
+        /// 0 - If no support for UI Testing.
+        /// 1 - If support for UI Testing.
+        print(XCT_UI_TESTING_AVAILABLE)
+    }
+
     class MyClass {
         var a: Int = 10
         
