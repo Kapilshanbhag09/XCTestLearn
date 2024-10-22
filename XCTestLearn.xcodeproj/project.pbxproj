@@ -41,6 +41,8 @@
 		9FDC0C732C8FEC2A002836A0 /* LearnXCTDarwinNotificationExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC0C722C8FEC2A002836A0 /* LearnXCTDarwinNotificationExpectation.swift */; };
 		9FDC0C752C8FF154002836A0 /* LearnXCTNSPredicateExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC0C742C8FF154002836A0 /* LearnXCTNSPredicateExpectation.swift */; };
 		9FED64CE2C86B24000B12A89 /* LearnXCTKVOExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED64CD2C86B24000B12A89 /* LearnXCTKVOExpectation.swift */; };
+		9FEEBBB42CC7496000278808 /* LearnXCTPerformaceMeasurementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEBBB32CC7496000278808 /* LearnXCTPerformaceMeasurementTests.swift */; };
+		9FEEBBB62CC7522500278808 /* LearnPerformanceMeasurementTimestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEBBB52CC7522500278808 /* LearnPerformanceMeasurementTimestamp.swift */; };
 		9FEF27452C5C819B00355B67 /* LearnAssertionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF27442C5C819B00355B67 /* LearnAssertionTests.swift */; };
 		9FEF27472C5C83D100355B67 /* LearnBooleanAssertionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF27462C5C83D100355B67 /* LearnBooleanAssertionTests.swift */; };
 		9FEF27492C5C871000355B67 /* LearnNilAndNonNilAssertionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF27482C5C871000355B67 /* LearnNilAndNonNilAssertionTests.swift */; };
@@ -100,6 +102,8 @@
 		9FDC0C722C8FEC2A002836A0 /* LearnXCTDarwinNotificationExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTDarwinNotificationExpectation.swift; sourceTree = "<group>"; };
 		9FDC0C742C8FF154002836A0 /* LearnXCTNSPredicateExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTNSPredicateExpectation.swift; sourceTree = "<group>"; };
 		9FED64CD2C86B24000B12A89 /* LearnXCTKVOExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTKVOExpectation.swift; sourceTree = "<group>"; };
+		9FEEBBB32CC7496000278808 /* LearnXCTPerformaceMeasurementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTPerformaceMeasurementTests.swift; sourceTree = "<group>"; };
+		9FEEBBB52CC7522500278808 /* LearnPerformanceMeasurementTimestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnPerformanceMeasurementTimestamp.swift; sourceTree = "<group>"; };
 		9FEF27442C5C819B00355B67 /* LearnAssertionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAssertionTests.swift; sourceTree = "<group>"; };
 		9FEF27462C5C83D100355B67 /* LearnBooleanAssertionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnBooleanAssertionTests.swift; sourceTree = "<group>"; };
 		9FEF27482C5C871000355B67 /* LearnNilAndNonNilAssertionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnNilAndNonNilAssertionTests.swift; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				363864EA2CC5FC6500393882 /* LearnXCTOSSignpostMetricTests.swift */,
 				363864EC2CC5FE1800393882 /* LearnXCTStorageMetricTests.swift */,
 				363864EE2CC5FEDD00393882 /* LearnXCTApplicationLaunchMetricTests.swift */,
+				9FEEBBB32CC7496000278808 /* LearnXCTPerformaceMeasurementTests.swift */,
+				9FEEBBB52CC7522500278808 /* LearnPerformanceMeasurementTimestamp.swift */,
 			);
 			path = PerformanceTests;
 			sourceTree = "<group>";
@@ -405,6 +411,7 @@
 				9F23851F2C72F212006D8B06 /* LearnXCTestExpectation.swift in Sources */,
 				363864EF2CC5FEDD00393882 /* LearnXCTApplicationLaunchMetricTests.swift in Sources */,
 				9F293F7A2C992F02005B3DF4 /* LearnXCUIElementQuery.swift in Sources */,
+				9FEEBBB42CC7496000278808 /* LearnXCTPerformaceMeasurementTests.swift in Sources */,
 				9FC29C982C5B3160004E4F2E /* XCTestLearn.swift in Sources */,
 				36C087ED2C914EFE00271114 /* LearnXCTWaiter.swift in Sources */,
 				36C6DE722C5DEFEF00372FCF /* LearnComparableAssertionTests.swift in Sources */,
@@ -421,6 +428,7 @@
 				9FED64CE2C86B24000B12A89 /* LearnXCTKVOExpectation.swift in Sources */,
 				36F4064B2CBCCA4100FCEB15 /* Writing&RunningPerformanceTests.swift in Sources */,
 				36C6DE782C5E03F800372FCF /* LearnExpectedFailuresTests.swift in Sources */,
+				9FEEBBB62CC7522500278808 /* LearnPerformanceMeasurementTimestamp.swift in Sources */,
 				9F1A04972CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift in Sources */,
 				82B1C0192C059E7400CFF09B /* XCTestLearnUITests.swift in Sources */,
 			);
