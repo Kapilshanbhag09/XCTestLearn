@@ -30,6 +30,7 @@
 		9F0DAEB32C9BCB8700575121 /* LearnXCUIElementTypeQueryProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DAEB22C9BCB8700575121 /* LearnXCUIElementTypeQueryProviderTests.swift */; };
 		9F1A04952CAB9FD90044C721 /* LearnXCUIElementAttributesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A04942CAB9FD90044C721 /* LearnXCUIElementAttributesTests.swift */; };
 		9F1A04972CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A04962CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift */; };
+		9F1CD1732CC9F09A00DA7F30 /* LearnGrouptingTestsIntoSubsteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CD1722CC9F09A00DA7F30 /* LearnGrouptingTestsIntoSubsteps.swift */; };
 		9F23851F2C72F212006D8B06 /* LearnXCTestExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F23851E2C72F212006D8B06 /* LearnXCTestExpectation.swift */; };
 		9F293F7A2C992F02005B3DF4 /* LearnXCUIElementQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F293F792C992F02005B3DF4 /* LearnXCUIElementQuery.swift */; };
 		9F8653882C573ED9002C8945 /* WaitingExpectationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8653872C573ED9002C8945 /* WaitingExpectationsTests.swift */; };
@@ -90,6 +91,7 @@
 		9F0DAEB22C9BCB8700575121 /* LearnXCUIElementTypeQueryProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementTypeQueryProviderTests.swift; sourceTree = "<group>"; };
 		9F1A04942CAB9FD90044C721 /* LearnXCUIElementAttributesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementAttributesTests.swift; sourceTree = "<group>"; };
 		9F1A04962CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementSnapshotTests.swift; sourceTree = "<group>"; };
+		9F1CD1722CC9F09A00DA7F30 /* LearnGrouptingTestsIntoSubsteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGrouptingTestsIntoSubsteps.swift; sourceTree = "<group>"; };
 		9F23851E2C72F212006D8B06 /* LearnXCTestExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTestExpectation.swift; sourceTree = "<group>"; };
 		9F293F792C992F02005B3DF4 /* LearnXCUIElementQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementQuery.swift; sourceTree = "<group>"; };
 		9F2A08DD2C4F4FFD00D68F3E /* AsyncTestExpectations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTestExpectations.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 		82B1C0172C059E7400CFF09B /* XCTestLearnUITests */ = {
 			isa = PBXGroup;
 			children = (
+				9F1CD1712CC9F07800DA7F30 /* Activities */,
 				36DCAEEB2CA3B584003968C4 /* UIElements */,
 				9F9EEE722CA267CC00F4B01C /* ApplicationLifecycle */,
 				9F293F782C992EE4005B3DF4 /* UIElementQueries */,
@@ -208,6 +211,14 @@
 				82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */,
 			);
 			path = XCTestLearnUITests;
+			sourceTree = "<group>";
+		};
+		9F1CD1712CC9F07800DA7F30 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				9F1CD1722CC9F09A00DA7F30 /* LearnGrouptingTestsIntoSubsteps.swift */,
+			);
+			path = Activities;
 			sourceTree = "<group>";
 		};
 		9F23851D2C72F1E9006D8B06 /* AsyncTestsExpectations */ = {
@@ -421,6 +432,7 @@
 				9F9BBBFB2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift in Sources */,
 				363864EB2CC5FC6500393882 /* LearnXCTOSSignpostMetricTests.swift in Sources */,
 				9FEF274B2C5C8B4000355B67 /* LearnEqualityAndNonEqualityAssertionTests.swift in Sources */,
+				9F1CD1732CC9F09A00DA7F30 /* LearnGrouptingTestsIntoSubsteps.swift in Sources */,
 				9F9EEE742CA267EE00F4B01C /* LearnXCUIApplicationTests.swift in Sources */,
 				9F0DAEB32C9BCB8700575121 /* LearnXCUIElementTypeQueryProviderTests.swift in Sources */,
 				9FDC0C732C8FEC2A002836A0 /* LearnXCTDarwinNotificationExpectation.swift in Sources */,
