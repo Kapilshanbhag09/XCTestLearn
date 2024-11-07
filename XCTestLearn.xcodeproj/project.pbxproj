@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3603D8F52CDD074500B9515D /* LearnXCTIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603D8F42CDD074500B9515D /* LearnXCTIssueTests.swift */; };
 		363864EB2CC5FC6500393882 /* LearnXCTOSSignpostMetricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363864EA2CC5FC6500393882 /* LearnXCTOSSignpostMetricTests.swift */; };
 		363864ED2CC5FE1900393882 /* LearnXCTStorageMetricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363864EC2CC5FE1800393882 /* LearnXCTStorageMetricTests.swift */; };
 		363864EF2CC5FEDD00393882 /* LearnXCTApplicationLaunchMetricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363864EE2CC5FEDD00393882 /* LearnXCTApplicationLaunchMetricTests.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3603D8F42CDD074500B9515D /* LearnXCTIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTIssueTests.swift; sourceTree = "<group>"; };
 		363864EA2CC5FC6500393882 /* LearnXCTOSSignpostMetricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTOSSignpostMetricTests.swift; sourceTree = "<group>"; };
 		363864EC2CC5FE1800393882 /* LearnXCTStorageMetricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTStorageMetricTests.swift; sourceTree = "<group>"; };
 		363864EE2CC5FEDD00393882 /* LearnXCTApplicationLaunchMetricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTApplicationLaunchMetricTests.swift; sourceTree = "<group>"; };
@@ -134,6 +136,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3603D8F22CDD070A00B9515D /* TestExecutionObservation */ = {
+			isa = PBXGroup;
+			children = (
+				3603D8F32CDD071E00B9515D /* TestFailures */,
+			);
+			path = TestExecutionObservation;
+			sourceTree = "<group>";
+		};
+		3603D8F32CDD071E00B9515D /* TestFailures */ = {
+			isa = PBXGroup;
+			children = (
+				3603D8F42CDD074500B9515D /* LearnXCTIssueTests.swift */,
+			);
+			path = TestFailures;
+			sourceTree = "<group>";
+		};
 		36DCAEEB2CA3B584003968C4 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +221,7 @@
 		82B1C00D2C059E7400CFF09B /* XCTestLearnTests */ = {
 			isa = PBXGroup;
 			children = (
+				3603D8F22CDD070A00B9515D /* TestExecutionObservation */,
 				36F406492CBCCA2200FCEB15 /* PerformanceTests */,
 				9F23851D2C72F1E9006D8B06 /* AsyncTestsExpectations */,
 				9F6D44E42C5C80E9001EBCC7 /* TestAssertions */,
@@ -428,6 +447,7 @@
 				9FEF27472C5C83D100355B67 /* LearnBooleanAssertionTests.swift in Sources */,
 				36F48BED2CCCBB28005D10E7 /* LearnAttachmentsTests.swift in Sources */,
 				363864ED2CC5FE1900393882 /* LearnXCTStorageMetricTests.swift in Sources */,
+				3603D8F52CDD074500B9515D /* LearnXCTIssueTests.swift in Sources */,
 				9FC29C952C5B2B6E004E4F2E /* CreatingTestsProgramatically.swift in Sources */,
 				36D1A7142C5F67E4003F3CA5 /* LearnSkippingMethodTests.swift in Sources */,
 				9F8653882C573ED9002C8945 /* WaitingExpectationsTests.swift in Sources */,
