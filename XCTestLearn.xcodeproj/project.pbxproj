@@ -19,6 +19,8 @@
 		36DCAEED2CA3B5A9003968C4 /* LearnXCUIElementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DCAEEC2CA3B5A9003968C4 /* LearnXCUIElementsTests.swift */; };
 		36E807032C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E807022C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift */; };
 		36F4064B2CBCCA4100FCEB15 /* Writing&RunningPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F4064A2CBCCA4100FCEB15 /* Writing&RunningPerformanceTests.swift */; };
+		36F48BED2CCCBB28005D10E7 /* LearnAttachmentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F48BEC2CCCBB28005D10E7 /* LearnAttachmentsTests.swift */; };
+		36F48BEF2CCCC297005D10E7 /* LearnXCTAttachmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F48BEE2CCCC297005D10E7 /* LearnXCTAttachmentTests.swift */; };
 		82B1BFF82C059E7200CFF09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFF72C059E7200CFF09B /* AppDelegate.swift */; };
 		82B1BFFA2C059E7200CFF09B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFF92C059E7200CFF09B /* SceneDelegate.swift */; };
 		82B1BFFC2C059E7200CFF09B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1BFFB2C059E7200CFF09B /* ViewController.swift */; };
@@ -73,6 +75,8 @@
 		36DCAEEC2CA3B5A9003968C4 /* LearnXCUIElementsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementsTests.swift; sourceTree = "<group>"; };
 		36E807022C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTNotificationExpectation.swift; sourceTree = "<group>"; };
 		36F4064A2CBCCA4100FCEB15 /* Writing&RunningPerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Writing&RunningPerformanceTests.swift"; sourceTree = "<group>"; };
+		36F48BEC2CCCBB28005D10E7 /* LearnAttachmentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAttachmentsTests.swift; sourceTree = "<group>"; };
+		36F48BEE2CCCC297005D10E7 /* LearnXCTAttachmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTAttachmentTests.swift; sourceTree = "<group>"; };
 		824764352C09D02E00079195 /* ManageExecutionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageExecutionsTests.swift; sourceTree = "<group>"; };
 		824764372C09DC9D00079195 /* XCTestLearn.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = XCTestLearn.xctestplan; sourceTree = "<group>"; };
 		826DAC752C16B68F00DA50CA /* MesasurePerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesasurePerformanceTests.swift; sourceTree = "<group>"; };
@@ -153,6 +157,15 @@
 			path = PerformanceTests;
 			sourceTree = "<group>";
 		};
+		36F48BEB2CCCBAF9005D10E7 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				36F48BEC2CCCBB28005D10E7 /* LearnAttachmentsTests.swift */,
+				36F48BEE2CCCC297005D10E7 /* LearnXCTAttachmentTests.swift */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
 		82B1BFEB2C059E7200CFF09B = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +215,7 @@
 		82B1C0172C059E7400CFF09B /* XCTestLearnUITests */ = {
 			isa = PBXGroup;
 			children = (
+				36F48BEB2CCCBAF9005D10E7 /* Attachments */,
 				9F1CD1712CC9F07800DA7F30 /* Activities */,
 				36DCAEEB2CA3B584003968C4 /* UIElements */,
 				9F9EEE722CA267CC00F4B01C /* ApplicationLifecycle */,
@@ -408,9 +422,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F48BEF2CCCC297005D10E7 /* LearnXCTAttachmentTests.swift in Sources */,
 				36C6DE762C5DFC2300372FCF /* LearnUnconditionalFailureTests.swift in Sources */,
 				9FEF27492C5C871000355B67 /* LearnNilAndNonNilAssertionTests.swift in Sources */,
 				9FEF27472C5C83D100355B67 /* LearnBooleanAssertionTests.swift in Sources */,
+				36F48BED2CCCBB28005D10E7 /* LearnAttachmentsTests.swift in Sources */,
 				363864ED2CC5FE1900393882 /* LearnXCTStorageMetricTests.swift in Sources */,
 				9FC29C952C5B2B6E004E4F2E /* CreatingTestsProgramatically.swift in Sources */,
 				36D1A7142C5F67E4003F3CA5 /* LearnSkippingMethodTests.swift in Sources */,
