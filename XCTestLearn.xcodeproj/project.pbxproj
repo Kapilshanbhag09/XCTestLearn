@@ -30,6 +30,8 @@
 		82B1C0042C059E7400CFF09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B1C0022C059E7400CFF09B /* LaunchScreen.storyboard */; };
 		82B1C0192C059E7400CFF09B /* XCTestLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */; };
 		82B1C01B2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */; };
+		9F074D0C2CDF3DA700C09414 /* LearnXCTIssueReferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F074D0B2CDF3DA700C09414 /* LearnXCTIssueReferenceTests.swift */; };
+		9F074D0E2CDF464700C09414 /* LearnXCTMutableIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F074D0D2CDF464700C09414 /* LearnXCTMutableIssueTests.swift */; };
 		9F0DAEB32C9BCB8700575121 /* LearnXCUIElementTypeQueryProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DAEB22C9BCB8700575121 /* LearnXCUIElementTypeQueryProviderTests.swift */; };
 		9F1A04952CAB9FD90044C721 /* LearnXCUIElementAttributesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A04942CAB9FD90044C721 /* LearnXCUIElementAttributesTests.swift */; };
 		9F1A04972CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A04962CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift */; };
@@ -94,6 +96,8 @@
 		82B1C0142C059E7400CFF09B /* XCTestLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B1C0182C059E7400CFF09B /* XCTestLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearnUITests.swift; sourceTree = "<group>"; };
 		82B1C01A2C059E7400CFF09B /* XCTestLearnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestLearnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F074D0B2CDF3DA700C09414 /* LearnXCTIssueReferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTIssueReferenceTests.swift; sourceTree = "<group>"; };
+		9F074D0D2CDF464700C09414 /* LearnXCTMutableIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTMutableIssueTests.swift; sourceTree = "<group>"; };
 		9F0DAEB22C9BCB8700575121 /* LearnXCUIElementTypeQueryProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementTypeQueryProviderTests.swift; sourceTree = "<group>"; };
 		9F1A04942CAB9FD90044C721 /* LearnXCUIElementAttributesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementAttributesTests.swift; sourceTree = "<group>"; };
 		9F1A04962CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementSnapshotTests.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				3603D8F42CDD074500B9515D /* LearnXCTIssueTests.swift */,
+				9F074D0B2CDF3DA700C09414 /* LearnXCTIssueReferenceTests.swift */,
+				9F074D0D2CDF464700C09414 /* LearnXCTMutableIssueTests.swift */,
 			);
 			path = TestFailures;
 			sourceTree = "<group>";
@@ -459,6 +465,7 @@
 				363864EF2CC5FEDD00393882 /* LearnXCTApplicationLaunchMetricTests.swift in Sources */,
 				9F293F7A2C992F02005B3DF4 /* LearnXCUIElementQuery.swift in Sources */,
 				9FEEBBB42CC7496000278808 /* LearnXCTPerformaceMeasurementTests.swift in Sources */,
+				9F074D0C2CDF3DA700C09414 /* LearnXCTIssueReferenceTests.swift in Sources */,
 				9FC29C982C5B3160004E4F2E /* XCTestLearn.swift in Sources */,
 				36C087ED2C914EFE00271114 /* LearnXCTWaiter.swift in Sources */,
 				36C6DE722C5DEFEF00372FCF /* LearnComparableAssertionTests.swift in Sources */,
@@ -473,6 +480,7 @@
 				9F0DAEB32C9BCB8700575121 /* LearnXCUIElementTypeQueryProviderTests.swift in Sources */,
 				9FDC0C732C8FEC2A002836A0 /* LearnXCTDarwinNotificationExpectation.swift in Sources */,
 				9F87BC2D2C59DB5400A24DA2 /* HandlingUIInteruptions.swift in Sources */,
+				9F074D0E2CDF464700C09414 /* LearnXCTMutableIssueTests.swift in Sources */,
 				9FED64CE2C86B24000B12A89 /* LearnXCTKVOExpectation.swift in Sources */,
 				36F4064B2CBCCA4100FCEB15 /* Writing&RunningPerformanceTests.swift in Sources */,
 				36C6DE782C5E03F800372FCF /* LearnExpectedFailuresTests.swift in Sources */,
