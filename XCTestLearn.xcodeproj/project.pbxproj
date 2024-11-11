@@ -20,6 +20,8 @@
 		36C6DE782C5E03F800372FCF /* LearnExpectedFailuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6DE772C5E03F800372FCF /* LearnExpectedFailuresTests.swift */; };
 		36D1A7142C5F67E4003F3CA5 /* LearnSkippingMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1A7132C5F67E4003F3CA5 /* LearnSkippingMethodTests.swift */; };
 		36DCAEED2CA3B5A9003968C4 /* LearnXCUIElementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DCAEEC2CA3B5A9003968C4 /* LearnXCUIElementsTests.swift */; };
+		36E64A8C2CE26D0F005E6AF5 /* LearnXCTestObservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E64A8B2CE26D0F005E6AF5 /* LearnXCTestObservationTests.swift */; };
+		36E64A8E2CE2745F005E6AF5 /* LearnXCTestObservationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E64A8D2CE2745F005E6AF5 /* LearnXCTestObservationCenterTests.swift */; };
 		36E807032C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E807022C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift */; };
 		36F4064B2CBCCA4100FCEB15 /* Writing&RunningPerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F4064A2CBCCA4100FCEB15 /* Writing&RunningPerformanceTests.swift */; };
 		36F48BED2CCCBB28005D10E7 /* LearnAttachmentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F48BEC2CCCBB28005D10E7 /* LearnAttachmentsTests.swift */; };
@@ -86,6 +88,8 @@
 		36C6DE772C5E03F800372FCF /* LearnExpectedFailuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnExpectedFailuresTests.swift; sourceTree = "<group>"; };
 		36D1A7132C5F67E4003F3CA5 /* LearnSkippingMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSkippingMethodTests.swift; sourceTree = "<group>"; };
 		36DCAEEC2CA3B5A9003968C4 /* LearnXCUIElementsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCUIElementsTests.swift; sourceTree = "<group>"; };
+		36E64A8B2CE26D0F005E6AF5 /* LearnXCTestObservationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTestObservationTests.swift; sourceTree = "<group>"; };
+		36E64A8D2CE2745F005E6AF5 /* LearnXCTestObservationCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTestObservationCenterTests.swift; sourceTree = "<group>"; };
 		36E807022C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnXCTNotificationExpectation.swift; sourceTree = "<group>"; };
 		36F4064A2CBCCA4100FCEB15 /* Writing&RunningPerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Writing&RunningPerformanceTests.swift"; sourceTree = "<group>"; };
 		36F48BEC2CCCBB28005D10E7 /* LearnAttachmentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAttachmentsTests.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 		3603D8F22CDD070A00B9515D /* TestExecutionObservation */ = {
 			isa = PBXGroup;
 			children = (
+				36E64A8A2CE26CDA005E6AF5 /* TestObservation */,
 				366C8FD32CE0FDD400C7073F /* TestRuns */,
 				3603D8F32CDD071E00B9515D /* TestFailures */,
 				9F074D192CE1A22E00C09414 /* LearnXCTTestRunTests.swift */,
@@ -195,6 +200,15 @@
 				9F1A04962CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift */,
 			);
 			path = UIElements;
+			sourceTree = "<group>";
+		};
+		36E64A8A2CE26CDA005E6AF5 /* TestObservation */ = {
+			isa = PBXGroup;
+			children = (
+				36E64A8B2CE26D0F005E6AF5 /* LearnXCTestObservationTests.swift */,
+				36E64A8D2CE2745F005E6AF5 /* LearnXCTestObservationCenterTests.swift */,
+			);
+			path = TestObservation;
 			sourceTree = "<group>";
 		};
 		36F406492CBCCA2200FCEB15 /* PerformanceTests */ = {
@@ -504,6 +518,7 @@
 				36C087ED2C914EFE00271114 /* LearnXCTWaiter.swift in Sources */,
 				36C6DE722C5DEFEF00372FCF /* LearnComparableAssertionTests.swift in Sources */,
 				36E807032C8C12C400A2F499 /* LearnXCTNotificationExpectation.swift in Sources */,
+				36E64A8C2CE26D0F005E6AF5 /* LearnXCTestObservationTests.swift in Sources */,
 				9FDC0C752C8FF154002836A0 /* LearnXCTNSPredicateExpectation.swift in Sources */,
 				9FEF27452C5C819B00355B67 /* LearnAssertionTests.swift in Sources */,
 				9F9BBBFB2C8953E60027E05A /* LearnXCTKeyPathExpectation.swift in Sources */,
@@ -523,6 +538,7 @@
 				9FEEBBB62CC7522500278808 /* LearnPerformanceMeasurementTimestamp.swift in Sources */,
 				9F1A04972CABA6150044C721 /* LearnXCUIElementSnapshotTests.swift in Sources */,
 				82B1C0192C059E7400CFF09B /* XCTestLearnUITests.swift in Sources */,
+				36E64A8E2CE2745F005E6AF5 /* LearnXCTestObservationCenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
